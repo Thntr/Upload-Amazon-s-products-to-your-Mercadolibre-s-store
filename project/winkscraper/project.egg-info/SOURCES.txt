@@ -1,0 +1,17 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+winkscraper/__init__.py
+winkscraper/githubProxies.py
+winkscraper/items.py
+winkscraper/meli.py
+winkscraper/middlewares.py
+winkscraper/pipelines.py
+winkscraper/settings.py
+winkscraper/ssl_helper.py
+winkscraper/testOnMeli.py
+winkscraper/spiders/__init__.py
+winkscraper/spiders/winky_spider.py
