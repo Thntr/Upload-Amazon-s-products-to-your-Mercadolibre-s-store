@@ -33,7 +33,7 @@ Este proyecto incluye un archivo requirements.txt con todas las librerías neces
 
 Después de clonar o descargar el repositorio, abre una terminal en la carpeta raíz del proyecto y ejecuta:
 
-<pre> pip install -r requirements.txt </pre>pre> <br><br>
+<pre> pip install -r requirements.txt </pre> <br><br>
 
 **🏃¿Cómo usar el bot?**
 
@@ -57,7 +57,7 @@ Modo **real**:
   winkUploadBot.bat
 </pre>
 
-4. Haz doble clic en el .bat o ejecútalo desde la línea de comandos. Esto iniciará el script Python correspondiente con los parámetros necesarios.
+4. Haz doble clic en el .bat o ejecútalo desde la línea de comandos. Esto iniciará el script Python correspondiente con los parámetros necesarios. <br><br>
 
 **🔍¿Qué hace cada script?**
 
@@ -67,7 +67,7 @@ Modo **real**:
 | winkUploadTest.bat | Sube un producto de prueba a MercadoLibre. |
 | winkSynchBot.bat | Actualiza productos existentes en producción (sin pruebas). |
 | winkUploadBot.bat | Sube todos los productos reales de Amazon a tu tienda de MercadoLibre. |
-
+<br><br>
 **## :warning: Advertencia**
 Debido a que Amazon es una página dinámica, el funcionamiento del bot podría desactualizarse o dejar de funcionar en cualquier momento. Si encuentras que ya no funciona como esperas o tiene errores, se recomienda implementar tú mismo la lógica de actualización o adaptación del código. Tu contribución será muy bien recibida.
 
