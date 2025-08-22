@@ -34,10 +34,37 @@ Este proyecto incluye un archivo requirements.txt con todas las librerías neces
 
 Después de clonar o descargar el repositorio, abre una terminal en la carpeta raíz del proyecto y ejecuta:
 
-<pre> pip install -r requirements.txt <pre> <br><br>
+<pre> pip install -r requirements.txt </pre>pre> <br><br>
 
-##  ¿Cómo usar el bot?
+**¿Cómo usar el bot?**
 
-Clona o descarga todo el repositorio a tu máquina local.
+1. Clona o descarga todo el repositorio a tu máquina local.
 
-Navega a la carpeta que contiene los .bat:
+2. Navega a la carpeta que contiene los .bat:
+
+<pre> cd project/winkscraper/winkscraper/spiders/botsStarters </pre>
+
+3. Elige el archivo .bat adecuado según tu objetivo:
+
+Modo **prueba**:
+<pre>
+winkSynchTest.bat
+winkUploadTest.bat </pre>
+
+Modo **real**:
+
+<pre>
+  winkSynchBot.bat
+  winkUploadBot.bat
+</pre>
+
+4. Haz doble clic en el .bat o ejecútalo desde la línea de comandos. Esto iniciará el script Python correspondiente con los parámetros necesarios.
+
+**¿Qué hace cada script?**
+
+| 📝 Archivo | ⚡ Función principal |
+|------------|------------|
+| winkSynchTest.bat | Actualiza productos existentes con datos de prueba (precios, colores, specs). |
+| winkUploadTest.bat | Sube un producto de prueba a MercadoLibre. |
+| winkSynchBot.bat | Actualiza productos existentes en producción (sin pruebas). |
+| winkUploadBot.bat | Sube todos los productos reales de Amazon a tu tienda de MercadoLibre. |
