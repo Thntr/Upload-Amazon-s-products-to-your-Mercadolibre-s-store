@@ -67,7 +67,9 @@ Modo **real**:
 | winkUploadTest.bat | Sube un producto de prueba a MercadoLibre. |
 | winkSynchBot.bat | Actualiza productos existentes en producción (sin pruebas). |
 | winkUploadBot.bat | Sube todos los productos reales de Amazon a tu tienda de MercadoLibre. |
+
 <br><br>
+
 **## :warning: Advertencia**
 Debido a que Amazon es una página dinámica, el funcionamiento del bot podría desactualizarse o dejar de funcionar en cualquier momento. Si encuentras que ya no funciona como esperas o tiene errores, se recomienda implementar tú mismo la lógica de actualización o adaptación del código. Tu contribución será muy bien recibida.
 
