@@ -1,9 +1,8 @@
-## Upload products from Amazon to your store at Mercadolibre <br><br>
-#  Bot de carga y sincronización de productos de Amazon a MercadoLibre
+# 🚀  Bot de carga y sincronización de productos de Amazon a MercadoLibre
 
 Este proyecto está desarrollado en **Python** y permite automatizar la carga y sincronización de productos desde Amazon hacia tu tienda en MercadoLibre, utilizando su API.
 
-##  Estructura del repositorio
+## 📂  Estructura del repositorio
 
 El archivo `.bat` principal se encuentra en:
 
@@ -24,7 +23,7 @@ Dentro de esa carpeta hay **4 archivos `.bat`**:
 - **winkUploadBot.bat**  
   Carga productos reales de Amazon a tu tienda de MercadoLibre (modo no prueba).
 
-##  Requisitos
+## 🛠️ Requisitos
 
 Tener instalado **Python 3.x** (recomiendo 3.8 o superior).
 
@@ -36,7 +35,7 @@ Después de clonar o descargar el repositorio, abre una terminal en la carpeta r
 
 <pre> pip install -r requirements.txt </pre>pre> <br><br>
 
-**¿Cómo usar el bot?**
+**🏃¿Cómo usar el bot?**
 
 1. Clona o descarga todo el repositorio a tu máquina local.
 
@@ -60,7 +59,7 @@ Modo **real**:
 
 4. Haz doble clic en el .bat o ejecútalo desde la línea de comandos. Esto iniciará el script Python correspondiente con los parámetros necesarios.
 
-**¿Qué hace cada script?**
+**🔍¿Qué hace cada script?**
 
 | 📝 Archivo | ⚡ Función principal |
 |------------|------------|
@@ -68,3 +67,7 @@ Modo **real**:
 | winkUploadTest.bat | Sube un producto de prueba a MercadoLibre. |
 | winkSynchBot.bat | Actualiza productos existentes en producción (sin pruebas). |
 | winkUploadBot.bat | Sube todos los productos reales de Amazon a tu tienda de MercadoLibre. |
+
+**## :warning: Advertencia**
+Debido a que Amazon es una página dinámica, el funcionamiento del bot podría desactualizarse o dejar de funcionar en cualquier momento. Si encuentras que ya no funciona como esperas o tiene errores, se recomienda implementar tú mismo la lógica de actualización o adaptación del código. Tu contribución será muy bien recibida.
+
