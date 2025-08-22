@@ -3,8 +3,6 @@
 
 Este proyecto está desarrollado en **Python** y permite automatizar la carga y sincronización de productos desde Amazon hacia tu tienda en MercadoLibre, utilizando su API.
 
- <br><br>
-
 ##  Estructura del repositorio
 
 El archivo `.bat` principal se encuentra en:
@@ -26,11 +24,9 @@ Dentro de esa carpeta hay **4 archivos `.bat`**:
 - **winkUploadBot.bat**  
   Carga productos reales de Amazon a tu tienda de MercadoLibre (modo no prueba).
 
- <br><br>
-
 ##  Requisitos
 
-1. Tener instalado **Python 3.x** (recomiendo 3.8 o superior).
+Tener instalado **Python 3.x** (recomiendo 3.8 o superior).
 
 ⚙️ **Instalación de dependencias**
 
@@ -39,3 +35,9 @@ Este proyecto incluye un archivo requirements.txt con todas las librerías neces
 Después de clonar o descargar el repositorio, abre una terminal en la carpeta raíz del proyecto y ejecuta:
 
 <pre> pip install -r requirements.txt <pre> <br><br>
+
+##  ¿Cómo usar el bot?
+
+Clona o descarga todo el repositorio a tu máquina local.
+
+Navega a la carpeta que contiene los .bat:
