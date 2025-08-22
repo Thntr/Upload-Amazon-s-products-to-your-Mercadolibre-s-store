@@ -32,6 +32,10 @@ Dentro de esa carpeta hay **4 archivos `.bat`**:
 
 1. Tener instalado **Python 3.x** (recomiendo 3.8 o superior).
 
-2. Instalar las dependencias necesarias. Estas podrían incluir (dependiendo de tu implementación real):
+⚙️ **Instalación de dependencias**
 
-   <pre> pip install requests mercadolibre-sdk beautifulsoup4 <pre>
+Este proyecto incluye un archivo requirements.txt con todas las librerías necesarias.
+
+Después de clonar o descargar el repositorio, abre una terminal en la carpeta raíz del proyecto y ejecuta:
+
+<pre> pip install -r requirements.txt <pre> <br><br>
